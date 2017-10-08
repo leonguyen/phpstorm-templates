@@ -1,0 +1,44 @@
+<templateSet group="W3">
+  <template name="w3-fp" value="div.w3-container.w3-display-middle&gt;form:post&gt;h2.w3-center{Forgot your password?}+input.w3-input.w3-section.w3-border[name=&quot;email&quot; placeholder=&quot;Email&quot; required autofocus]+btn.w3-btn.w3-block.w3-section.w3-blue{Get new password}+a{Back to login}" description="W3 Forgot Password" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+      <option name="CoffeeScript" value="true" />
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="PHP" value="true" />
+      <option name="Twig" value="true" />
+      <option name="TypeScript" value="true" />
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="w3-html5" value="&lt;!doctype html&gt;&#10;&lt;html lang=&quot;en&quot;&gt;&#10;&lt;head&gt;&#10;    &lt;meta charset=&quot;UTF-8&quot;&gt;&#10;    &lt;meta name=&quot;viewport&quot;&#10;          content=&quot;width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0&quot;&gt;&#10;    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot;&gt;&#10;    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://www.w3schools.com/w3css/4/w3.css&quot;&gt;&#10;    &lt;title&gt;Document&lt;/title&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;    $BODY$&#10;&lt;/body&gt;&#10;&lt;/html&gt;" description="W3 HTML5" toReformat="false" toShortenFQNames="true">
+    <variable name="BODY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+      <option name="CoffeeScript" value="true" />
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="PHP" value="true" />
+      <option name="Twig" value="true" />
+      <option name="TypeScript" value="true" />
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="w3-li" value="div.w3-container.w3-display-middle&gt;form:post&gt;h2.w3-center{Admin}+input.w3-input.w3-section.w3-border[name=&quot;email&quot; placeholder=&quot;Email&quot; required autofocus]+input:p.w3-input.w3-section.w3-border[name=&quot;password&quot; placeholder=&quot;Password&quot; required]+input:c.w3-check[name=&quot;remember&quot;]{Remember me}+btn.w3-btn.w3-block.w3-section.w3-blue{Login}+a{Forgot password?}" description="W3 Login" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+      <option name="CoffeeScript" value="true" />
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="PHP" value="true" />
+      <option name="Twig" value="true" />
+      <option name="TypeScript" value="true" />
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="w3-cota" value="div.w3-container.w3-display-middle&gt;form:post&gt;h2.w3-center{Contact}+input.w3-input.w3-section.w3-border[name=&quot;firstname&quot; placeholder=&quot;First Name&quot; required autofocus]+input:p.w3-input.w3-section.w3-border[name=&quot;lastname&quot; placeholder=&quot;Last Name&quot; required]+input:p.w3-input.w3-section.w3-border[name=&quot;email&quot; placeholder=&quot;Email&quot; required]+input:p.w3-input.w3-section.w3-border[name=&quot;phone&quot; placeholder=&quot;Phone&quot; required]+textarea.w3-input.w3-section.w3-border[name=&quot;message&quot; placeholder=&quot;Message&quot; required]+btn.w3-btn.w3-section.w3-block.w3-blue{Send}" description="W3 Contact" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,1061 @@
+<templateSet group="W3CSS">
+  <template name="w3-c" value="w3-container" description="HTML container with 16px left and right padding" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-pa" value="w3-panel" description="HTML container with 16px left and right padding and 16px top and bottom margin" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-ba" value="w3-badge" description="Circular badge" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-tg" value="w3-tag" description="Rectangular tag" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-u" value="w3-ul" description="Unordered list" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-dc" value="w3-display-container" description="Container for w3-display-classes (enables positioning of elements inside the container)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-cd" value="w3-code" description="Code container" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-cs" value="w3-codespan" description="Inline code container (for code snippets)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-t" value="w3-table" description="Container for an HTML table" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-st" value="w3-striped" description="Striped table" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-bdta" value="w3-border" description="Bordered table" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3c-bdl" value="w3-bordered" description="Bordered lines" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-ct" value="w3-centered" description="Centered table" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-hv" value="w3-hoverable" description="Hoverable table" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-ta" value="w3-table-all" description="All properties set" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-re" value="w3-responsive" description="Creates a responsive table" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-crd" value="w3-card" description="Same as w3-card-2" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-cr2" value="w3-card-2" description="Container for any HTML content (2px bordered shadow)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-cr4" value="w3-card-4" description="Container for any HTML content (4px bordered shadow)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-r" value="w3-row" description="Container for one row of fluid responsive content" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-rp" value="w3-row-padding" description="Row where all columns have a default padding" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-ctn" value="w3-content" description="Container for fixed size centered content" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-hf" value="w3-half" description="Half (1/2) screen column container" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-th" value="w3-third" description="Third (1/3) screen column container" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-tt" value="w3-twothird" description="Two third (2/3) screen column container" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-qt" value="w3-quarter" description="Quarter (1/4) screen column container" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-tq" value="w3-threequarter" description="Three quarters (3/4) screen column container" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-cl" value="w3-col" description="Column container for any HTML content" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-rs" value="w3-rest" description="Occupies the rest of the column width" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-l1" value="l1" description="Responsive sizes for large screens" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-m1" value="m1" description="Responsive sizes for medium screens" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-s1" value="s1" description="Responsive sizes for small screens" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-hs" value="w3-hide-small" description="Hide content on small screens (less than 601px)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-hm" value="w3-hide-medium" description="Hide content on medium screens" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-im" value="w3-image" description="Responsive image" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-mob" value="w3-mobile" description="Adds mobile-first responsiveness to any element. Displays elements as block elements on mobile devices." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-cr" value="w3-cell-row" description="Container for layout columns (cells)." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-cel" value="w3-cell" description="Layout column (cell)." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-cet" value="w3-cell-top" description="Aligns content at the top of a column (cell)." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-cem" value="w3-cell-middle" description="Aligns content at the vertical middle of a column (cell)." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-ceb" value="w3-cell-bottom" description="Aligns content at the bottom of a column (cell)." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-b" value="w3-bar" description="Horizontal bar" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-bb" value="w3-bar-block" description="Vertical bar" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-bi" value="w3-bar-item" description="Provides common style for bar items" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-s" value="w3-sidebar" description="Side bar" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-cls" value="w3-collapse" description="Used together with w3-sidebar to create a fully automatic responsive side navigation. For this class to work, the page content must be within a &quot;w3-main&quot; class" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-ma" value="w3-main" description="Container for page content when using the w3-collapse class for responsive side navigations" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-ddc" value="w3-dropdown-click" description="Clickable dropdown element" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-ddh" value="w3-dropdown-hover" description="Hoverable dropdown element" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-bt" value="w3-button" description="Grey rectangular button" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-btn" value="w3-btn" description="Black rectangular button" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-rpp" value="w3-ripple" description="Rectangular button with ripple effect" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-in" value="w3-input" description="Input elements" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-ch" value="w3-check" description="Checkbox input type" toReformat="false" toShortenFQNames="true" />
+  <template name="w3-ra" value="w3-radio" description="Radio input type" toReformat="false" toShortenFQNames="true" />
+  <template name="w3-se" value="w3-select" description="Input select element" toReformat="false" toShortenFQNames="true" />
+  <template name="w3-mo" value="w3-modal" description="Modal container" toReformat="false" toShortenFQNames="true" />
+  <template name="w3-moc" value="w3-modal-content" description="Modal pop-up element" toReformat="false" toShortenFQNames="true" />
+  <template name="w3-too" value="w3-tooltip" description="Tooltip element" toReformat="false" toShortenFQNames="true" />
+  <template name="w3-te" value="w3-text" description="Tooltip text" toReformat="false" toShortenFQNames="true" />
+  <template name="w3-at" value="w3-animate-top" description="Animates an element from the top -300px to 0px" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-al" value="w3-animate-left" description="Animates an element from left -300px to 0px" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-ab" value="w3-animate-bottom" description="Animates an element from the bottom -300px to 0px" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-ar" value="w3-animate-right" description="Animates an element from right -300px to 0px" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-ao" value="w3-animate-opacity" description="Animates an element's opacity from 0 to 1" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-az" value="w3-animate-zoom" description="Animates an element from 0 to 100% in size" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-af" value="w3-animate-fading" description="Animates an element's opacity from 0 to 1 and 1 to 0 (fades in AND out)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-sp" value="w3-spin" description="Spin an icon 360 degrees" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-ai" value="w3-animate-input" description="Animates the width of an input field to 100%" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-ti" value="w3-tiny" description="Specifies a font size of 10 pixels" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-sm" value="w3-small" description="Specifies a font size of 12 pixels" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-la" value="w3-large" description="Specifies a font size of 20 pixels" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-xl" value="w3-xlarge" description="Specifies a font size of 24 pixels" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-xxl" value="w3-xxlarge" description="Specifies a font size of 32 pixels" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-xxxl" value="w3-xxxlarge" description="Specifies a font size of 48 pixels" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-jum" value="w3-jumbo" description="Specifies a font size of 64 pixels" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-wi" value="w3-wide" description="Specifies a wider text" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-ser" value="w3-serif" description="Changes the font to serif" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-ce" value="w3-center" description="Centered content" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-le" value="w3-left" description="Floats an element to the left (float: left)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-ri" value="w3-right" description="Floats an element to the right (float: right)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-lea" value="w3-left-align" description="Left aligned text" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-ria" value="w3-right-align" description="Right aligned text" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-ju" value="w3-justify" description="Right and left aligned text" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-ci" value="w3-circle" description="Circled content" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-hi" value="w3-hide" description="Hidden content (display:none)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-sh" value="w3-show" description="Show content (display:block)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-shb" value="w3-show-block" description="Alias of w3-show (display:block)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-shib" value="w3-show-inline-block" description="Show content as inline-block (display:inline-block)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-to" value="w3-top" description="Fixed content at the top of a page" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-bo" value="w3-bottom" description="Fixed content at the bottom of a page" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-dt" value="w3-display-topleft" description="Displays content at the top left corner of the w3-display-container" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-dtr" value="w3-display-topright" description="Displays content at the top right corner of the w3-display-container" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-dbl" value="w3-display-bottomleft" description="Displays content at the bottom left corner of the w3-display-container" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-dbr" value="w3-display-bottomright" description="Displays content at the bottom right corner of the w3-display-container" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-dl" value="w3-display-left" description="Displays content to the left (middle left) of the w3-display-container" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-dr" value="w3-display-right" description="Displays content to the right (middle right) of the w3-display-container" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-dm" value="w3-display-middle" description="Displays content in the middle (center) of the w3-display-container" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-dtm" value="w3-display-topmiddle" description="Displays content at the top middle of the w3-display-container" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-dbm" value="w3-display-bottommiddle" description="Displays content at the bottom middle of the w3-display-container" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-dp" value="w3-display-position" description="Displays content at a specified position in the w3-display-container" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-dh" value="w3-display-hover" description="Displays content on hover inside the w3-display-container" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-op" value="w3-opacity" description="Adds opacity/transparency to an element (opacity: 0.6)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-opo" value="w3-opacity-off" description="Turns off opacity/transparency (opacity: 1)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-opmi" value="w3-opacity-min" description="Adds opacity/transparency to an element (opacity: 0.75)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-opma" value="w3-opacity-max" description="Adds opacity/transparency to an element (opacity: 0.25)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-gsmi" value="w3-grayscale-min" description="Adds a grayscale effect to an element (grayscale: 50%)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-gs" value="w3-grayscale" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-gsma" value="w3-grayscale-max" description="Adds a grayscale effect to an element (grayscale: 100%)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-sepmi" value="w3-sepia-min" description="Adds a sepia effect to an element (sepia: 50%)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-sep" value="w3-sepia" description="Adds a sepia effect to an element (sepia: 75%)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-sepma" value="w3-sepia-max" description="Adds a sepia effect to an element (sepia: 100%)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-ov" value="w3-overlay" description="Creates an overlay effect" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-red" value="w3-red" description="Background color red" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-pi" value="w3-pink" description="Background color pink" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-pu" value="w3-purple" description="Background color purple" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-dep" value="w3-deep-purple" description="Background color deep purple" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-ind" value="w3-indigo" description="Background color indigo" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-blu" value="w3-blue" description="Background color blue" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-lib" value="w3-light-blue" description="Background color light blue" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-cy" value="w3-cyan" description="Background color cyan" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-aq" value="w3-aqua" description="Background color aqua" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-tea" value="w3-teal" description="Background color teal" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-gr" value="w3-green" description="Background color green" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-lig" value="w3-light-green" description="Background color light green" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-li" value="w3-lime" description="Background color lime" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-sa" value="w3-sand" description="Background color sand" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-kh" value="w3-khaki" description="Background color khaki" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-ye" value="w3-yellow" description="Background color yellow" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-am" value="w3-amber" description="Background color amber" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-or" value="w3-orange" description="Background color orange" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-do" value="w3-deep-orange" description="Background color deep orange" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-blg" value="w3-blue-grey" description="Background color blue grey" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-br" value="w3-brown" description="Background color brown" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-ligr" value="w3-light-grey" description="Background color light grey" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-gre" value="w3-grey" description="Background color grey" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-dag" value="w3-dark-grey" description="Background color dark grey" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-bl" value="w3-black" description="Background color black" toReformat="false" toShortenFQNames="true" />
+  <template name="w3-pr" value="w3-pale-red" description="Background color pale red" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-py" value="w3-pale-yellow" description="Background color pale yellow" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-pg" value="w3-pale-green" description="Background color pale green" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-pb" value="w3-pale-blue" description="Background color pale blue" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-tra" value="w3-transparent" description="Transparent background-color" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-ter" value="w3-text-red" description="Text color red" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-teg" value="w3-text-green" description="Text color green" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-teb" value="w3-text-blue" description="Text color blue" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-tey" value="w3-text-yellow" description="Text color yellow" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-tegr" value="w3-text-grey" description="Text color grey" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-tedg" value="w3-text-dark-grey" description="Text color dark grey" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-tebl" value="w3-text-black" description="Text color black" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-tew" value="w3-text-white" description="Text color white" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-tep" value="w3-text-pink" description="Text color pink" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-tepu" value="w3-text-purple" description="Text color purple" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-tet" value="w3-text-teal" description="Text color teal" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-telg" value="w3-text-light-green" description="Text color light green" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-tel" value="w3-text-lime" description="Text color lime" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-tedp" value="w3-text-deep-purple" description="Text color deep purple" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-tei" value="w3-text-indigo" description="Text color indigo" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-telb" value="w3-text-light-blue" description="Text color light blue" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-tebg" value="w3-text-blue-grey" description="Text color blue grey" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-tec" value="w3-text-cyan" description="Text color cyan" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-teaq" value="w3-text-aqua" description="Text color aqua" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-team" value="w3-text-amber" description="Text color amber" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-teor" value="w3-text-orange" description="Text color orange" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-tedo" value="w3-text-deep-orange" description="Text color deep orange" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-tes" value="w3-text-sand" description="Text color sand" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-tekh" value="w3-text-khaki" description="Text color khaki" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-tebr" value="w3-text-brown" description="Text color brown" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-how" value="w3-hover-white" description="Hover color white" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-hobl" value="w3-hover-black" description="Hover color black" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-hor" value="w3-hover-red" description="Hover color red" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-hob" value="w3-hover-blue" description="Hover color blue" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-hog" value="w3-hover-green" description="Hover color green" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-hoa" value="w3-hover-aqua" description="Hover color aqua" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-hoo" value="w3-hover-orange" description="Hover color orange" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-hogr" value="w3-hover-grey" description="Hover color grey" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-hopg" value="w3-hover-pale-green" description="Hover color pale green" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-hotr" value="w3-hover-text-red" description="Hover text color red" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-hotg" value="w3-hover-text-green" description="Hover text color green" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-hotb" value="w3-hover-text-blue" description="Hover text color blue" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-hoty" value="w3-hover-text-yellow" description="Hover text color yellow" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-hobc" value="w3-hover-border-color" description="Hover border color" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-hoop" value="w3-hover-opacity" description="Adds transparency to an element on hover (opacity: 0.6)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-hoopo" value="w3-hover-opacity-off" description="Removes transparency from an element on hover (100% opacity)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-hos" value="w3-hover-shadow" description="Adds shadow to an element on hover" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-hogs" value="w3-hover-grayscale" description="Adds a black and white (100% grayscale) effect to an element" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-hose" value="w3-hover-sepia" description="Adds a sepia effect to an element on hover" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-hon" value="w3-hover-none" description="Removes hover effects from an element" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-ro" value="w3-round" description="Element rounded (border-radius) 4px" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-ros" value="w3-round-small" description="Element rounded (border-radius) 2px" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-rom" value="w3-round-medium" description="Element rounded (border-radius) 4px" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-rol" value="w3-round-large" description="Element rounded (border-radius) 8px" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-roxl" value="w3-round-xlarge" description="Element rounded (border-radius) 16px" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-ps" value="w3-padding-small" description="Padding 4px top and bottom, and 8px left and right." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-p" value="w3-padding" description="Padding 8px top and bottom, and 16px left and right." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-pl" value="w3-padding-large" description="Padding 12px top and bottom, and 24px left and right." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-p16" value="w3-padding-16" description="Padding 16px top and bottom" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-p24" value="w3-padding-24" description="Padding 24px top and bottom" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-p32" value="w3-padding-32" description="Padding 32px top and bottom" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-p48" value="w3-padding-48" description="Padding 48px top and bottom" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-p64" value="w3-padding-64" description="Padding 64px top and bottom" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-m" value="w3-margin" description="Adds an 16px margin to an element" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-mt" value="w3-margin-top" description="Adds an 16px top margin to an element" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-mr" value="w3-margin-right" description="Adds an 16px right margin to an element" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-mb" value="w3-margin-bottom" description="Adds an 16px bottom margin to an element" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-ml" value="w3-margin-left" description="Adds an 16px left margin to an element" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-sec" value="w3-section" description="Adds an 16px top and bottom margin to an element" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-bd" value="w3-border" description="Borders (top, right, bottom, left)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-bdt" value="w3-border-top" description="Border top" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-bdr" value="w3-border-right" description="Border right" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-bdb" value="w3-border-bottom" description="Border bottom" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-bdl" value="w3-border-left" description="Border left" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-bd0" value="w3-border-0" description="Removes all borders" toReformat="false" toShortenFQNames="true" />
+  <template name="w3-boc" value="w3-border-color" description="Displays any defined borders in a specified color (like red, etc)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-bob" value="w3-bottombar" description="Adds a thick bottom border (bar) to an element" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-lb" value="w3-leftbar" description="Adds a thick left border (bar) to an element" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-rb" value="w3-rightbar" description="Adds a thick right border (bar) to an element" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-tb" value="w3-topbar" description="Adds a thick top border (bar) to an element" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-hbc" value="w3-hover-border-color" description="Hoverable border color" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>

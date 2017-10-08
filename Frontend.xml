@@ -1,0 +1,14 @@
+<templateSet group="Frontend">
+  <template name="li" value="form:post&gt;input[name=&quot;email&quot; placeholder=&quot;Email&quot; required]+input:p[name=&quot;password&quot; placeholder=&quot;Password&quot; required]+input:c[name=&quot;remember&quot;]{Remember me}+btn{Login}+a{Forgot password?}" description="Login" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+      <option name="CoffeeScript" value="true" />
+      <option name="HAML" value="true" />
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="PHP" value="true" />
+      <option name="Twig" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>

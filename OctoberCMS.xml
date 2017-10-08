@@ -1,0 +1,138 @@
+<templateSet group="OctoberCMS">
+  <template name="oc-theme-template" value="url = &quot;/$blog$&quot;&#10;layout = &quot;$default$&quot;&#10;==&#10;function onStart()&#10;{&#10;    $this['$posts$'] = $getdata$;&#10;}&#10;==&#10;&lt;h3&gt;Blog archive&lt;/h3&gt;&#10;{% for post in posts %}&#10;    &lt;h4&gt;{{ post.title }}&lt;/h4&gt;&#10;    {{ post.content }}&#10;{% endfor %}$END$" description="Pages, partials and layout templates can include up to 3 sections: configuration, PHP code, and Twig markup. Sections are separated with the == sequence." toReformat="false" toShortenFQNames="true">
+    <variable name="blog" expression="" defaultValue="&quot;blog&quot;" alwaysStopAt="true" />
+    <variable name="default" expression="" defaultValue="&quot;default&quot;" alwaysStopAt="true" />
+    <variable name="posts" expression="" defaultValue="&quot;posts&quot;" alwaysStopAt="true" />
+    <variable name="getdata" expression="" defaultValue="getdata" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="oc-page-url.syntax" value="url = &quot;/blog/:post_id?/comments&quot;&#10;==&#10;function onStart()&#10;{&#10;    $post_id = $this-&gt;param('post_id');&#10;}&#10;==$END$" description="The page URL is defined with the url configuration parameter" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="oc-page-page.execution.life.cycle" value="url = &quot;/&quot;&#10;==&#10;function onStart()&#10;{&#10;    $this['hello'] = &quot;Hello world!&quot;;&#10;}&#10;==&#10;&lt;h3&gt;{{ hello }}&lt;/h3&gt;$END$" description="There are special functions that can be defined in the PHP section of pages and layouts: onInit, onStart and onEnd" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="oc-page-blog-page.execution.life.cycle" value="url = &quot;/blog&quot;&#10;==&#10;use Acme\Blog\Classes\Post;&#10;&#10;function onStart()&#10;{&#10;  $this['posts'] = Post::orderBy('created_at', 'desc')-&gt;get();&#10;}&#10;==&#10;&lt;h2&gt;Latest posts&lt;/h2&gt;&#10;&lt;ul&gt;&#10;    {% for post in posts %}&#10;        &lt;h3&gt;{{ post.title }}&lt;/h3&gt;&#10;        {{ post.content }}&#10;    {% endfor %}&#10;&lt;/ul&gt;$END$" description="There are special functions that can be defined in the PHP section of pages and layouts: onInit, onStart and onEnd" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="oc-page-sending.a.custom.response" value="public function onStart()&#10;{&#10;    return Redirect::to('http://google.com');&#10;}$END$" description="All methods defined in the execution life cycle have the ability to halt the process and return a response" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="oc-page-handling.forms" value="function onHandleForm()&#10;{&#10;    $this['lastValue'] = post('value');&#10;}&#10;==&#10;{{ form_open({ request: 'onHandleForm' }) }}&#10;    Please enter a string: &lt;input type=&quot;text&quot; name=&quot;value&quot;/&gt;&#10;    &lt;input type=&quot;submit&quot; value=&quot;Submit me!&quot;/&gt;&#10;{{ form_close() }}&#10;&lt;p&gt;Last submitted value: {{ lastValue }}&lt;/p&gt;$END$" description="You can handle standard forms with handler methods defined in the page or layout PHP section" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="oc-page-page.variables" value="function onEnd()&#10;{&#10;    $this-&gt;page-&gt;title = 'A different page title';&#10;}&#10;==&#10;&lt;p&gt;The title of this page is: {{ this.page.title }}&lt;/p&gt;$END$" description="The properties of a page can be accessed in the PHP code section or Components by referencing $this-&gt;page" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="oc-page-injecting.page.assets.programmatically" value="function onStart()&#10;{&#10;    $this-&gt;addCss(['assets/css/hello.css', 'assets/css/goodbye.css']);&#10;    $this-&gt;addJs(['assets/js/app.js', 'assets/js/nav.js']);&#10;}$END$" description="If needed, you can inject assets (CSS and JavaScript files) to pages with the controller's addCss and addJs methods" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="oc-partial-rendering.partials" value="{% partial &quot;$PartialName$&quot; %}$END$" description="The tag has a single required parameter - the partial file name without the extension" toReformat="false" toShortenFQNames="true">
+    <variable name="PartialName" expression="" defaultValue="&quot;&quot;PartialName&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="oc-partial-passing.variables.to.partials" value="{% partial &quot;$BlogPosts$&quot; $posts$=$posts$ %}$END$" description="You will find that you often need to pass variables to a partial from the external code" toReformat="false" toShortenFQNames="true">
+    <variable name="BlogPosts" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="posts" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="oc-layout-template" value="description = &quot;Basic layout example&quot;&#10;==&#10;&lt;html&gt;&#10;    &lt;body&gt;&#10;        {% $page$ %}&#10;    &lt;/body&gt;&#10;&lt;/html&gt;$END$" description="Layouts define the page scaffold, that is everything that repeats on a page, such as a header and footer" toReformat="false" toShortenFQNames="true">
+    <variable name="page" expression="" defaultValue="page" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="oc-layout-placeholder" value="{% placeholder $head$ %}$END$" description="Placeholders allow pages to inject content to the layout" toReformat="false" toShortenFQNames="true">
+    <variable name="head" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="oc-layout-put" value="{% put $head$ %}&#10;    $css$&#10;{% endput %}$END$" description="Pages can inject content to placeholders with the {% put %} and {% endput %} tags" toReformat="false" toShortenFQNames="true">
+    <variable name="head" expression="" defaultValue="head" alwaysStopAt="true" />
+    <variable name="css" expression="" defaultValue="css" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="oc-content.block-rendering.content.blocks" value="{% content '$html$' %}$END$" description="Use the {% content 'file.htm' %} tag to render a content block in a page, partial or layout" toReformat="false" toShortenFQNames="true">
+    <variable name="html" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="oc-content.block-passing.variables.to.content.blocks" value="{% content '$html$' $variable$ %}$END$" description="Sometimes you may need to pass variables to a content block from the external code" toReformat="false" toShortenFQNames="true">
+    <variable name="html" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="variable" expression="" defaultValue="name='John'" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="oc-content.block-global.variables" value="View::share('$site_name$', '$OctoberCMS$');$END$" description="You may register variables that are globally available to all content blocks with the View::share method" toReformat="false" toShortenFQNames="true">
+    <variable name="site_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="OctoberCMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="oc-page-template" value="url = &quot;/&quot;&#10;==&#10;&lt;h1&gt;Hello, world!&lt;/h1&gt;" description="Page template files reside in the /pages subdirectory of a theme directory. Page file names do not affect the routing, but it's a good idea to name your pages accordingly to the page function" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="oc-component-template" value="title = &quot;$ComponentsDemonstration$&quot;&#10;url = &quot;/$components$&quot;&#10;&#10;[demoTodo]&#10;maxItems = 20" description="If you use the back-end user interface you can add components to your pages, partials and layouts by clicking the component in the Components panel" toReformat="false" toShortenFQNames="true">
+    <variable name="ComponentsDemonstration" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="components" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="oc-component-alias" value="{% component '$demoTodoAlias$' %}$END$" description="When you refer a component, it automatically creates a page variable that matches the component name (demoTodo in the previous example)" toReformat="false" toShortenFQNames="true">
+    <variable name="demoTodoAlias" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="oc-component-passing.variables.to.components" value="{% component '$demoTodoAlias$' $variable$ %}$END$" description="Components can be designed to use variables at the time they are rendered, similar to Partial variables," toReformat="false" toShortenFQNames="true">
+    <variable name="demoTodoAlias" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="variable" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="oc-component-overriding.component.partials" value="url = &quot;$mypage$&quot;&#10;&#10;[$channel$]&#10;==&#10;{% component &quot;$channel$&quot; %}$END$" description="All component partials can be overridden using the theme partials" toReformat="false" toShortenFQNames="true">
+    <variable name="mypage" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="channel" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="oc-component-view.bag.component" value="title = &quot;$About$&quot;&#10;url = &quot;/$AboutHtml$&quot;&#10;layout = &quot;$default$&quot;&#10;&#10;[viewBag]&#10;activeMenu = &quot;about&quot;&#10;==&#10;&#10;&lt;p&gt;Page content...&lt;/p&gt;" description="There is a special component included in October called viewBag that can be used on any page or layout" toReformat="false" toShortenFQNames="true">
+    <variable name="About" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="AboutHtml" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="default" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>

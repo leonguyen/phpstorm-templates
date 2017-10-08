@@ -1,0 +1,78 @@
+<templateSet group="W3JS">
+  <template name="w3.h" value="w3.hide" description="Hides HTML elements" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3.s" value="w3.show" description="Shows HTML elements" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3.ts" value="w3.toggleShow" description="Toggles between hiding and showing HTML elements" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3.tc" value="w3.toggleClass" description="Toggles the class of HTML elements" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3.ac" value="w3.addClass" description="Adds one or multiple classes to HTML elements" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3.as" value="w3.addStyle" description="Adds style to HTML elements" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3.rc" value="w3.removeClass" description="Removes one or multiple classes to HTML elements" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3.fh" value="w3.filterHTML" description="Filters the display of HTML elements" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3.sh" value="w3.sortHTML" description="Sorts the display of HTML elements" toReformat="false" toShortenFQNames="true" />
+  <template name="w3.ss" value="w3.slideshow" description="Make HTML elements display as a slideshow" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3.do" value="w3.displayObject" description="Displays data in HTML" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3.ih" value="w3.includeHTML" description="Displays HTML in HTML" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3.gho" value="w3.getHttpObject" description="Reads JSON data from a server" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3.ghd" value="w3.getHttpData" description="Reads data from a server" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-rep" value="w3-repeat" description="Defines where to repeat data" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w3-ih" value="w3-include-HTML" description="Defines where to include HTML" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>

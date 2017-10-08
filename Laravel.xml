@@ -1,0 +1,403 @@
+<templateSet group="Laravel">
+  <template name="la-artisan-list" value="php artisan list$END$" description="Lists commands" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-clear-compiled" value="php artisan clear compiled$END$" description="Remove the compiled class file" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-down" value="php artisan down$END$" description="Put the application into maintenance mode" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-env" value="php artisan env$END$" description="Display the current framework environment" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-help" value="php artisan help$END$" description="Displays help for a command" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-inspire" value="php aritsan inspire$END$" description="Display an inspiring quote" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-migrate" value="php artisan migrate$END$" description="Run the database migrations" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-optimize" value="php artisan optimize$END$" description="Optimize the framework for better performance (deprecated)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-preset" value="php atisan preset$END$" description="Swap the front-end scaffolding for the application" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-serve" value="php artisan serve$END$" description="Serve the application on the PHP development server" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-tinker" value="php artisan tinker$END$" description="Interact with your application" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-up" value="php artisan up$END$" description="Bring the application out of maintenance mode" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-app-name" value="php artisan app-name$END$" description="Set the application namespace" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-auth-clear-resets" value="php artisan auth:clear-resets" description="Flush expired password reset tokens" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-cache-clear" value="php artisan cache:clear$END$" description="Flush the application cache" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-cache-forget" value="php artisan cache:forget$END$" description="Remove an item from the cache" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-cache-table" value="php artisan cache:table$END$" description="Create a migration for the cache database table" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-config-cache" value="php artisan config:cache$END$" description="Create a cache file for faster configuration loading" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-config-clear" value="php artisan config:clear$END$" description="Remove the configuration cache file" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-db-seed" value=" php artisan db:seed$END$" description="Seed the database with records" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-event-generate" value=" php artisan event:generate$END$" description="Generate the missing events and listeners based on registration" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-key-generate" value="php artisan key:generate$END$" description="Set the application key" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-make-auth" value=" php artisan make:auth$END$" description="Scaffold basic login and registration views and routes" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-make-command" value="php artisan make:command$END$" description="Create a new Artisan command" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-make-controller" value=" php artisan make:controller$END$" description="Create a new controller class" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-make-event" value=" php artisan make:event$END$" description="Create a new event class" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-make-exception" value=" php artisan make:exception$END$" description="Create a new custom exception class" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-make-factory" value=" php artisan make:factory$END$" description="Create a new model factory" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-make-job" value=" php artisan make:job$END$" description="Create a new job class" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-make-listener" value=" php artisan make:listener$END$" description="Create a new event listener class" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-make-mail" value=" php artisan make:mail$END$" description="Create a new email class" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-make-middleware" value="php artisan make:middleware$END$" description="Create a new middleware class" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-make-migration" value="php artisan make:migration$END$" description="Create a new migration file" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-make-model" value=" php artisan make:model$END$" description="Create a new Eloquent model class" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-make-notification" value=" php artisan make:notification$END$" description="Create a new notification class" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-make-policy" value=" php artisan make:policy$END$" description="Create a new policy class" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-make-provider" value=" php artisan make:provider$END$" description="Create a new service provider class" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-make-request" value=" php artisan make:request$END$" description="Create a new form request class" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-make-resource" value="php artisan make:resource$END$" description="Create a new resource" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-make-rule" value="php artisan make:rule$END$" description="Create a new validation rule" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-make-seeder" value=" php artisan make:seeder$END$" description="Create a new seeder class" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-make-test" value=" php artisan make:test$END$" description="Create a new test class" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-make-widget" value="php artisan make:widget$END$" description="Create a new widget (arrilot/laravel-widgets)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-migrate-fresh" value="php artisan migrate:fresh$END$" description="Drop all tables and re-run all migrations" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-migrate-install" value=" php artisan migrate:install$END$" description="Create the migration repository" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-migrate-refresh" value="php artisan migrate:refresh$END$" description="Reset and re-run all migrations" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-migrate-reset" value="php artisan migrate:reset$END$" description="Rollback all database migrations" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-migrate-rollback" value=" php artisan migrate:rollback$END$" description="Rollback the last database migration" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-migrate-status" value=" php artisan migrate:status$END$" description="Show the status of each migration" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-notifications-table" value="php artisan notifications:table$END$" description="Create a migration for the notifications table" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-package-discover" value="php artisan package:discover$END$" description="Rebuild the cached package manifest" toReformat="false" toShortenFQNames="true" />
+  <template name="la-artisan-queue-failed" value=" php artisan queue:failed$END$" description="List all of the failed queue jobs" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-queue-failed-table" value="php artisan queue:failed-table$END$" description="Create a migration for the failed queue jobs database table" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-queue-flush" value="php artisan queue:flush$END$" description="Flush all of the failed queue jobs" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-queue-forget" value="php artisan queue:forget$END$" description="Delete a failed queue job" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-queue-listen" value=" php artisan queue:listen$END$" description="Listen to a given queue" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-queue-restart" value=" php artisan queue:restart$END$" description="Restart queue worker daemons after their current job" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-queue-retry" value="php artisan queue:retry$END$" description="Retry a failed queue job" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-queue-table" value="php artisan queue:table" description="Create a migration for the queue jobs database table" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-queue-work" value=" php artisan queue:work$END$" description="Start processing jobs on the queue as a daemon" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-route-cache" value="php artisan route:cache$END$" description="Create a route cache file for faster route registration" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-route-clear" value="php artisan route:clear$END$" description="Remove the route cache file" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-route-list" value="php artisan route:list$END$" description="List all registered routes" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-schedule-run" value="php artisan schedule:run$END$" description="Run the scheduled commands" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-session-table" value="php artisan session:table$END$" description="Create a migration for the session database table" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-storage-link" value="php artisan storage:link$END$" description="Create a symbolic link from &quot;public/storage&quot; to &quot;storage/app/public&quot;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-vendor-publish" value="php artisan vendor:publish$END$" description="Publish any publishable assets from vendor packages" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-view-clear" value="php artisan view:clear$END$" description="Clear all compiled view files" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-voyager-admin" value="php artisan voyager:admin$END$" description="Make sure there is a user with the admin role that has all of the necessary permissions." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-voyager-controllers" value=" php artisan voyager:controllers$END$" description="Publish all the controllers from Voyager." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-voyager-install" value="php artisan voyager:install$END$" description="Install the Voyager Admin package" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-hook-check" value="php artisan hook:check$END$" description="Check for updates and show hooks that can be updated" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-hook-disable" value=" php artisan hook:disable$END$" description="Disable a hook" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-hook-enable" value="php artisan hook:enable$END$" description="Enable a hook" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-hook-info" value="php artisan hook:info$END$" description="Get information on a hook" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-hook-install" value="php artisan hook:install$END$" description="Download and install a hook from remote https://larapack.io" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-hook-list" value="php artisan hook:list$END$" description="List installed hooks" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-hook-make" value="php artisan hook:make$END$" description="Make a hook" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-hook-setup" value="php artisan hook:setup$END$" description="Prepare Composer for using Hooks." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-hook-uninstall" value="php artisan hook:uninstall$END$" description="Uninstall a hook" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="la-artisan-hook-update" value="php artisan hook:update$END$" description="Update a hook" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
